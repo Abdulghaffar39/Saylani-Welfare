@@ -2,7 +2,7 @@
     font-family: "poppins";
     font-weight: 400;
     font-size: 62.5%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
  }
 
 body {
@@ -20,11 +20,21 @@ body {
 :root {
 
   --bg-dark-gray: #7e7e7e;
+  --bg-dark: #1f1f1f;
+  --bg-light-dark: #424242;
   --bg-black: #000000;
   --bg-white: #ffffff;
   --bg-blue: #0d6db7;
   --bg-green: #8dc63f;
   --bg-none: none;
+}
+
+.bg-dark {
+  background-color: var(--bg-dark);
+}
+
+.bg-light-dark {
+  background-color: var(--bg-light-dark);
 }
 
 .bg-dark-gray {
@@ -55,6 +65,8 @@ body {
 :root {
 
   --color-dark-gray: #7e7e7e;
+  --color-dark: #1f1f1f;
+  --color-light-dark: #424242;
   --color-gray: #0000001a;
   --color-black: #000000;
   --color-white: #ffffff;
@@ -65,6 +77,14 @@ body {
 
 .color-dark-gray {
   color: var(--color-dark-gray);
+}
+
+.color-light-dark {
+  color: var(--color-light-dark);
+}
+
+.color-dark {
+  color: var(--color-dark);
 }
 
 .color-gray {
@@ -106,4 +126,13 @@ body {
     border-radius: 8px;
     background-color: var(--bg-green);
     border: 1px solid transparent;
+}
+
+.btn-3 {
+    padding: 15px 15px;
+    width: 20rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: var(--bg-none);
+    border: 1px solid var(--color-black);
 }

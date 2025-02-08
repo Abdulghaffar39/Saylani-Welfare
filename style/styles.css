@@ -1,6 +1,9 @@
 /* navbar started */
 .main-nav {
     box-shadow: 0px 1px 8px var(--color-gray);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav {
@@ -21,22 +24,50 @@
 /* navbar ended */
 
 
-/* ------------container-1 started------------ */
+/* --- container-1 started --- */
 .container-1 {
-    gap: 35rem;
-    margin: 3rem 3rem;
+    gap: 10rem;
+    margin: 1rem 3rem;
+    margin-top: 10rem;
 }
 
-
-.welcome {
-    font-size: 6rem;
+.parent-1 {
+    width: 65rem;
 }
 
 .span-1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
-/* ------------container-1 ended------------ */
 
+.welcome {
+    font-size: 6rem;
+    line-height: 4.5rem;
+}
+
+.ngo {
+    font-size: 4rem;
+}
+
+.para-1 {
+    font-size: 1.5rem;
+}
+/* --- container-1 ended --- */
+
+
+/* container-2 started */
+.general, .rs {
+    background-color: var(--bg-light-dark);
+    font-size: 1rem;
+    color: var(--bg-white);
+    padding: 2.5rem;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#number {
+    width: 25rem;
+    padding: 2.8rem;
+}
+/* container-2 ended */
 
 
 
