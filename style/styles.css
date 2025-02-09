@@ -52,7 +52,56 @@
 }
 /* --- container-1 ended --- */
 
+/* container-2 stated */
+.container-2 {
+    padding: 3rem 0rem;
+    margin: 5rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-light-green);
+}
 
+.blood-bank {
+    padding: 5px 20px;
+    font-size: 3.8rem;
+    border-radius: 0.8rem;
+    color: var(--color-black);
+    background-color: var(--bg-white);
+}
+/* container-2 ended */
+
+/* container-3 started */
+.container-3 {
+    
+}
+
+.parent-3 {
+    border: 2px solid var(--color-white);
+    box-shadow: 2px 2px 12px var(--color-gray);
+    border-radius: 2rem;
+}
+
+.img-div-3 {
+    border-radius: 2rem;
+}
+/* container-3 ended */
+
+/* container-4 started */
+.children-4  {
+    width: 22.5rem;
+    height: 15rem;
+    border-radius: 6px;
+    background-color: var(--bg-light-green);
+    color: var(--color-black);
+}
+
+.doing {
+    font-size: 5rem;
+}
+
+.img-border-4 {
+    margin: 2.5rem 0rem;
+}
+/* container-4 ended */
 
 
 
@@ -115,8 +164,18 @@
     }
 
     .parent-img-1 {
-        width: 400px/oi  !important;
+        width: 400px !important;
     }
+
+/* ---------- container-4 started -------- */
+.doing {
+    text-align: center;
+}
+
+.parent-4 { 
+    width: 85%;
+}
+/* ---------- container-1 ended -------- */
 }
 /* nav responsive 1535px end */
 
@@ -135,7 +194,7 @@
         padding: 3px 14px;
     }
 
-/* ---------- container-1 -------- */
+/* ---------- container-1 started-------- */
     .parent-1 {
         line-height: 3rem;
     }
@@ -143,6 +202,27 @@
     #parent-img-1 {
         width: 400px !important;
     }
+/* ---------- container-1 ended-------- */
+
+/* ---------- container-2 started-------- */
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+}
+/* ---------- container-2 ended-------- */
+
+
+/* ---------- container-4 started -------- */
+.doing {
+    text-align: center;
+}
+
+.parent-4 { 
+    flex-wrap: wrap;
+}
+/* ---------- container-1 ended -------- */
 }
 /* nav responsive 1280px end */
 
@@ -210,8 +290,8 @@
 
 
 
-/* nav responsive 850px start */
-@media (max-width: 850px) {
+/* nav responsive 860px start */
+@media (max-width: 860px) {
     #icon-nav {
         padding: 1.5px 6px;
     }
@@ -248,10 +328,30 @@
 
     .para-1 {
         font-size: 1rem;
-    }
-    
+    }  
 }
-/* nav responsive 1000px end */
+/* nav responsive 860px end */
+
+
+/* nav responsive 578px started */
+@media (max-width: 578px) {
+
+    .doing {
+        font-size: 4rem;
+    }
+
+    #border-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content:center !important;
+        align-items: center !important; 
+        width: 18rem;
+    }
+}
+/* nav responsive 578px end */
+
+
+
 
 
 /* nav responsive 500px start */
@@ -296,5 +396,17 @@
     border-radius: 5px;
     font-size: 1rem;
     }   
+/* ---------- container-1 ended -------- */
+
+
+/* ---------- container-2 started -------- */
+#number {
+        padding: 2.4rem 5rem !important;
+}
+
+.blood-bank {
+    width: 15rem;
+}
+/* ---------- container-2 ended -------- */
 }
 /* nav responsive 500px end */
