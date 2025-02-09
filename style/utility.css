@@ -187,3 +187,12 @@ body {
     border: 1px solid transparent;
 }
 
+#btn-5 {
+    padding: 0.8rem;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: var(--bg-green);
+    border: 1px solid transparent;
+}
+
