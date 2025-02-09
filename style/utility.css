@@ -1,4 +1,9 @@
  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     font-family: "poppins";
     font-weight: 400;
     font-size: 62.5%;
@@ -113,17 +118,20 @@ body {
 /* color end*/
 
 #btn-1 {
-    padding: 8px 15px;
-    width: 14rem;
-    border-radius: 8px;
+    padding: 10px 16px;
+    width: 16rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin-right: 1rem;
     background-color: var(--bg-blue);
     border: 1px solid transparent;
 }
 
 #btn-2 {
-    padding: 8px 15px;
-    width: 14rem;
-    border-radius: 8px;
+    padding: 10px 16px;
+    width: 16rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
     background-color: var(--bg-green);
     border: 1px solid transparent;
 }
