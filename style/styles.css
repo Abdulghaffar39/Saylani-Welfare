@@ -243,6 +243,60 @@
 /* container-7 ended */
 
 
+/* container-8 started */
+.container-8 {
+}
+
+.parent8-div1 {
+    line-height: 0.2rem;
+    margin: 4rem 0rem;
+}
+
+.children-8 {
+    width: 100%;
+    background-color: var(--bg-gray);
+    border-radius: 1rem;
+}
+
+.parent8-div2 {
+    padding: 0rem 3rem;
+}
+
+.img-8 {
+    width: 10rem;
+    margin-top: 5rem;
+    border-radius: 10rem;
+}
+
+.arshad {
+    font-size: 3.4rem;
+}
+
+.gerry {
+    font-size: 1.5rem;
+}
+
+.para-8 {
+    width: 94%;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.btn-8 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: var(--bg-white);
+    color: var(--color-black);
+    border: 1px solid transparent;
+}
+
+.children8-div2 {
+    margin: 3rem 0rem;
+}
+/* container-8 ended */
+
+
 
 
 
@@ -648,6 +702,14 @@
     height: 28rem;
 }
 /* ------ container-7 ended ----- */
+
+/* ------ container-8 started ----- */
+.container-8 {
+    text-align: center;
+}
+/* ------ container-8 ended ----- */
+
+
 
 }
 /* nav responsive 500px end */

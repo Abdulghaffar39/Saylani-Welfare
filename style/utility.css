@@ -25,6 +25,7 @@ body {
 :root {
 
   --bg-dark-gray: #7e7e7e;
+  --bg-gray: #0000001a;
   --bg-dark: #1f1f1f;
   --bg-light-dark: #424242;
   --bg-black: #000000;
@@ -45,6 +46,10 @@ body {
 
 .bg-dark-gray {
   background-color: var(--bg-dark-gray);
+}
+
+.bg-gray {
+  background-color: var(--bg-gray);
 }
 
 .bg-none {
