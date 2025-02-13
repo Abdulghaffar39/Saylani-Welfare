@@ -223,7 +223,6 @@
 }
 
 .parent-7 {
-    background-color: var(--bg-blue);
     width: 100%;
     height: 40rem;
 }
@@ -244,9 +243,6 @@
 
 
 /* container-8 started */
-.container-8 {
-}
-
 .parent8-div1 {
     line-height: 0.2rem;
     margin: 4rem 0rem;
@@ -282,7 +278,7 @@
     line-height: 3rem;
 }   
 
-.btn-8 {
+.btn-8-div-8 {
     width: 5rem;
     height: 5rem;
     border-radius: 1rem;
@@ -342,8 +338,41 @@ iframe {
 /* container-10 ended */
 
 /* container-11 statred */
-.
+.background-11 {
+    width: 100%;
+    height: 31rem
+}
+
+.parent-11 {
+    padding: 6rem;
+}
+
+#email {
+    margin-bottom: 1rem;
+}
+
+.head-11 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#email {
+    width: 60vw;
+    font-size: 2rem;
+    padding: 1.2rem;
+    background-color: var(--bg-none);
+    color: var(--color-white);
+    border-radius: 1px;
+    border: 1px solid white;
+}
 /* container-11 ended */
+
+
+/* container-12 ended */
+/* .background-11 {
+    background-image: url(https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+} */
+/* container-12 ended */
 
 
 
@@ -392,6 +421,7 @@ iframe {
 
 
 /* nav responsive 1535px start */
+
 @media (max-width: 1535px) {
     .container-1 {
         display: flex;
@@ -432,12 +462,6 @@ iframe {
     width: 27rem;
 }
 /* ---------- container-9 ended -------- */
-
-
-/* ---------- container-10 started -------- */
-
-/* ---------- container-10 ended -------- */
-
 }
 /* nav responsive 1535px end */
 
@@ -652,6 +676,10 @@ iframe {
     width: 25rem;
 }
 /* ---------- container-10 ended -------- */
+
+/* ---------- container-11 ended -------- */
+
+/* ---------- container-11 ended -------- */
 }
 /* nav responsive 950px ended */
 
@@ -843,7 +871,10 @@ iframe {
 }
 /* ---------- container-9 ended -------- */
 
-/* ---------- container-10 started -------- */
-/* ---------- container-10 ended -------- */
+/* ---------- container-11 started -------- */
+.head-11 {
+    font-size: 3rem;
+}
+/* ---------- container-11 ended -------- */
 }
 /* nav responsive 500px end */
