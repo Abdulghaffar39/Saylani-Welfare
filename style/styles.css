@@ -369,9 +369,57 @@ iframe {
 
 
 /* container-12 ended */
-/* .background-11 {
-    background-image: url(https://saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
-} */
+.background-12 {
+    background-color: #424242;
+    width: 100%;
+    height: 68rem;
+}
+
+.parent-12 {
+    margin-top: 5rem;
+    padding-top: 6rem;
+    width: 90%;
+    gap: 15rem;
+}
+
+.img-12-black {
+    padding: 0.9rem 0rem;
+    background-color: var(--color-white);
+}
+
+.img-12-green {
+    padding: 0.1rem 0rem;
+    background-color: var(--color-green);
+}
+
+
+.head-12 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.para-12 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.para-12-div-2 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.para-12-div3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.img-12 {
+    margin-top: 3rem;
+}
+
+.img12-div2 {
+    margin: 8rem 0rem;
+}
 /* container-12 ended */
 
 
@@ -524,6 +572,14 @@ iframe {
     width: 90%;
 }
 /* ---------- container-9 ended -------- */
+
+
+/* ---------- container-12 ended -------- */
+.parent-12 {
+    /* flex-wrap: wrap; */
+    width: 95%;
+}
+/* ---------- container-12 ended -------- */
 }
 /* nav responsive 1280px end */
 
@@ -588,6 +644,50 @@ iframe {
     margin: 0vw 20vw;
 }
 /* ---------- container-10 ended -------- */
+
+
+/* ---------- container-12 ended -------- */
+.container-12 {
+    height: 95rem;
+}
+
+.logo-12 {
+    width: 65rem;
+    margin: 0 auto;
+}
+
+.child-12 {
+    margin: 0 auto;;
+}
+
+.children-12 {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.img-12 {
+    width: 5rem;
+}
+
+.parent-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 85%;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+.head-12 {
+    font-size: 6rem;
+}
+
+.para-12, .para-12-div-2, .para-12-div-3 {
+    font-size: 2rem;
+}
+/* ---------- container-12 ended -------- */
 }
 /* nav responsive 1200px end */
 
@@ -677,9 +777,22 @@ iframe {
 }
 /* ---------- container-10 ended -------- */
 
-/* ---------- container-11 ended -------- */
+/* ---------- container-12 ended -------- */
+.logo-12 {
+    width: 40vw;
+}
 
-/* ---------- container-11 ended -------- */
+.img-12 {
+    width: 4rem;
+}
+.head-12 {
+    font-size: 3rem;
+}
+
+.para-12, .para-12-div-2, .para-12-div-3 {
+    font-size: 1.2rem;
+}
+/* ---------- container-12 ended -------- */
 }
 /* nav responsive 950px ended */
 
@@ -741,6 +854,22 @@ iframe {
     gap: 2rem 2rem;
 }
 /* ------ container-10 ended ----- */
+
+
+/* ---------- container-12 ended -------- */
+.parent-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.container-12 {
+    height: 110rem;
+}
+/* ---------- container-12 ended -------- */
 }
 /* nav responsive 860px end */
 
