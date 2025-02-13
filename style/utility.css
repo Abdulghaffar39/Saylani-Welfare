@@ -201,3 +201,21 @@ body {
     border: 1px solid transparent;
 }
 
+.btn-6 {
+    padding: 0.6rem;
+    width: 11rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--bg-green);
+    color: var(--color-white);
+    border: 1px solid transparent;
+}
+
+.btn-7 {
+  padding: 0.5rem;
+  width: 6rem;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  background-color: var(--bg-white);
+}
+

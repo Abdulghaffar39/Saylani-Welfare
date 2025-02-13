@@ -280,7 +280,7 @@
     width: 94%;
     font-size: 1.4rem;
     line-height: 3rem;
-}
+}   
 
 .btn-8 {
     width: 5rem;
@@ -295,6 +295,55 @@
     margin: 3rem 0rem;
 }
 /* container-8 ended */
+
+
+
+/* container-9 started */
+
+.parent-9 {
+    margin-bottom: 4rem;
+}
+
+.media {
+    margin: 5rem 0rem;
+}
+
+iframe {
+    border-radius: 0.8rem;
+}
+/* container-9 ended */
+
+
+/* container-10 started */
+.news {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.parent-10 {
+    gap: 3.5rem;
+}
+
+.child-10 {
+    height: 42rem;
+    width: 22vw;
+    border-radius: 1rem;
+    background-color: var(--bg-gray);
+}
+
+.img-10 {
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 22vw;
+}
+
+.head-10 {
+    font-size: 3rem;
+    width: 20vw;
+}
+/* container-10 ended */
+
+/* container-11 statred */
+.
+/* container-11 ended */
 
 
 
@@ -376,6 +425,19 @@
     padding: 0rem 10rem;
 }
 /* ---------- container-5 ended -------- */
+
+
+/* ---------- container-9 sarted -------- */
+iframe {
+    width: 27rem;
+}
+/* ---------- container-9 ended -------- */
+
+
+/* ---------- container-10 started -------- */
+
+/* ---------- container-10 ended -------- */
+
 }
 /* nav responsive 1535px end */
 
@@ -431,6 +493,13 @@
 }
 
 /* ---------- container-5 ended -------- */
+
+
+/* ---------- container-9 started -------- */
+.parentmain-9 {
+    width: 90%;
+}
+/* ---------- container-9 ended -------- */
 }
 /* nav responsive 1280px end */
 
@@ -474,6 +543,27 @@
     font-size: 1.8rem !important;
 }
 /* ------ container-6 ended ----- */
+
+
+/* ---------- container-9 started -------- */
+.parent-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+iframe {
+    width: 40rem;
+}
+/* ---------- container-9 ended -------- */
+
+/* ---------- container-10 started -------- */
+.parent-10 {
+    margin: 0vw 20vw;
+}
+/* ---------- container-10 ended -------- */
 }
 /* nav responsive 1200px end */
 
@@ -511,7 +601,6 @@
 /* ---------- container-1 ended -------- */
 
 
-
 /* ------ container-6 started ------ */
 .container-6 {
     flex-wrap: wrap;
@@ -537,6 +626,32 @@
     width: 50%;
 }
 /* ------ container-7 ended ----- */
+
+/* ---------- container-9 started -------- */
+iframe {
+    width: 65rem;
+}
+/* ---------- container-9 ended -------- */
+
+/* ---------- container-10 ended -------- */
+.parent-10 {
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+
+.child-10, .img-10 {
+    width: 30rem;
+}
+
+.child-10 {
+    height: 45rem;
+}
+
+.head-10 {
+    width: 25rem;
+}
+/* ---------- container-10 ended -------- */
 }
 /* nav responsive 950px ended */
 
@@ -592,6 +707,12 @@
     font-size: 1.6rem !important;
 }
 /* ------ container-6 ended ----- */
+
+/* ------ container-10 started ----- */
+.parent-10 {
+    gap: 2rem 2rem;
+}
+/* ------ container-10 ended ----- */
 }
 /* nav responsive 860px end */
 
@@ -619,6 +740,13 @@
     text-align: center;
 }
 /* ------ container-6 ended ----- */
+
+
+/* ---------- container-9 started -------- */
+iframe {
+    width: 48rem;
+}
+/* ---------- container-9 ended -------- */
 }
 /* nav responsive 700px end */
 
@@ -709,7 +837,13 @@
 }
 /* ------ container-8 ended ----- */
 
+/* ---------- container-9 started -------- */
+iframe {
+    width: 30rem;
+}
+/* ---------- container-9 ended -------- */
 
-
+/* ---------- container-10 started -------- */
+/* ---------- container-10 ended -------- */
 }
 /* nav responsive 500px end */
