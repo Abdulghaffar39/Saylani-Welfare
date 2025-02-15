@@ -879,6 +879,16 @@ iframe {
 /* nav responsive 700px start */
 @media (max-width: 700px) {
 /* ------ container-6 started ------ */
+
+
+/* ---------- container-2 started -------- */
+#number {
+    font-size: 1.5rem !important;
+}
+
+/* ---------- container-2 ended -------- */
+
+
 .container-6 {
     padding: 0rem 3rem;
 }
@@ -972,10 +982,9 @@ iframe {
     }   
 /* ---------- container-1 ended -------- */
 
-
 /* ---------- container-2 started -------- */
 #number {
-        padding: 2.4rem 5rem !important;
+    
 }
 
 .blood-bank {
@@ -1007,5 +1016,16 @@ iframe {
     font-size: 3rem;
 }
 /* ---------- container-11 ended -------- */
+
+
+/* -------- footer started ------ */
+.logo-12 {
+    width: 35rem;
+}
+
+.img-12 {
+    width: 3.5rem;
+}
+/* ---------- footer ended -------- */
 }
 /* nav responsive 500px end */
