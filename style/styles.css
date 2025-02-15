@@ -612,6 +612,19 @@ iframe {
 /* ----- container-1 ended ---- */
 
 
+/* ----- container-2 started ---- */
+.general, .rs {
+    font-size: 0.9rem !important;
+    padding: 1.8rem 0rem !important;
+    height: 6vh !important;
+}
+
+#number {
+    font-size: 1rem !important;
+}
+/* ----- container-2 ended ---- */
+
+
 /* ------ container-6 started ------ */
 .container-6 {
     padding: 0rem 2rem;
@@ -883,9 +896,28 @@ iframe {
 
 /* ---------- container-2 started -------- */
 #number {
-    font-size: 1.5rem !important;
+    font-size: 0.5rem !important;
 }
 
+.general {
+    font-size: 1.4vw !important;
+    width: 7vw !important;
+    height: 4rem !important;
+    padding-bottom: 3rem !important;
+}
+
+#number {
+    font-size: 1.4vw !important;
+    width: 15vw !important;
+    height: 5.3rem !important;
+}
+
+.rs {
+    font-size: 1.4vw !important;
+    width: 4.5vw !important;
+    height: 4rem !important;
+    padding-bottom: 3rem !important;
+}
 /* ---------- container-2 ended -------- */
 
 
@@ -983,8 +1015,21 @@ iframe {
 /* ---------- container-1 ended -------- */
 
 /* ---------- container-2 started -------- */
+
+.general {
+    width: 18vw !important;
+    font-size: 1rem !important;
+}
+
 #number {
-    
+    font-size: 3vw !important;
+    width: 19vw !important;
+    height: 5.3rem !important;
+}
+
+.rs {
+    width: 10vw !important;
+    font-size: 1rem !important;
 }
 
 .blood-bank {
